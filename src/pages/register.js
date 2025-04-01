@@ -13,7 +13,7 @@ const RegisterForm = ({ setAuthMode }) => {
     password: { hasError: false, message: '' },
     terms: { hasError: false, message: '' }
   });
-
+  
   const isButtonDisabled = !name.trim() || !email.trim() || !password.trim() || !acceptTerms;
 
   const handleSubmit = (e) => {
