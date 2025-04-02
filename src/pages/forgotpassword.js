@@ -41,7 +41,7 @@ const ForgotPasswordForm = ({ setAuthMode }) => {
   return (
     <Paper elevation={3} sx={{ p: 4 }}>
       <Typography variant="h4" component="h1" gutterBottom align="center" sx={{ mb: 4 }}>
-        Recuperar Contraseña
+      Send Recovery Email
       </Typography>
       
       <Box component="form" onSubmit={handleSubmit} noValidate>
@@ -93,7 +93,7 @@ const ForgotPasswordForm = ({ setAuthMode }) => {
               }
             }}
           >
-            Confirmar
+            send
           </Button>
         </Stack>
       </Box>
